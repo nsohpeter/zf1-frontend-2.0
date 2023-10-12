@@ -1,8 +1,48 @@
 .main {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  justify-content: center;
+
 }
+
+.section2 {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1340px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+
+  /* margin: 1rem 3rem; */
+}
+
+.left {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin-left: 2rem;
+}
+
+.left p {
+  align-items: justify;
+}
+
+.rigght {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .right img {
+  width: 40%;
+  height: 40%;
+} */
