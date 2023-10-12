@@ -1,1 +1,5 @@
-.container {}
+.container {
+    width: 100%;
+    background-color: rgb(238, 109, 63);
+    padding: 5%;
+}

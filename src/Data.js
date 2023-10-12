@@ -47,3 +47,24 @@ export const bannerData = [
     image: "/photos/container_2 1.png",
   },
 ];
+
+export const testimonialSlider = [
+  {
+    id: 1,
+    name: "peter",
+    message:
+      "when I gave zf1 logistics a try, I had very good shipping experience. my items were shipped to me within a shor period of time. I therefore recommend zf1 logistics to anyone who want ship his/her products from overseas",
+  },
+  {
+    id: 1,
+    name: "Hannah",
+    message:
+      "when I gave zf1 logistics a try, I had very good shipping experience. my items were shipped to me within a shor period of time. I therefore recommend zf1 logistics to anyone who want ship his/her products from overseas",
+  },
+  {
+    id: 1,
+    name: "Cecilia",
+    message:
+      " I have had good service offered by zf1 logistics. I would rate them 9 out of 10.I therefore recommend zf1 logistics to anyone who want ship his/her products from overseas",
+  },
+];

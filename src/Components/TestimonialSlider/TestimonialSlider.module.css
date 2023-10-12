@@ -1,0 +1,70 @@
+.container {
+    /* position: relative; */
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    width: 50%;
+    height: 25vh;
+    /* max-width: 800px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(246, 116, 69);
+    color: #fff;
+}
+
+.TestimonialSliderslides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.position {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.nextSlide {
+    transform: translateX(100%)
+}
+
+.lastSlide {
+    transform: translateX(-100%)
+}
+
+.controlClick {
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+    right: 5%;
+    padding: 5px;
+    display: flex;
+    gap: 0.1rem;
+}
+
+.prev,
+.next {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 1.2rem;
+
+    cursor: pointer;
+    background-color: rgb(40, 37, 37);
+    color: #fff;
+}

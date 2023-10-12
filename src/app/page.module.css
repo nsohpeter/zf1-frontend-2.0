@@ -1,4 +1,4 @@
-.main {
+.mainContainer {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .section2 {
-  margin-top: 2rem;
+  /* margin-top: 3rem; */
   width: 100%;
   max-width: 1340px;
   display: flex;
@@ -46,3 +46,99 @@
   width: 40%;
   height: 40%;
 } */
+
+/* section-3 */
+.section3 {
+  margin-top: 3rem;
+  background-image: url("/photos/Rectangle 20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 52vh;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  left: 5%;
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.text p {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.text span {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+
+.rectangles {
+  width: 50%;
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.rectangle21 {
+  background-image: url("/photos/Rectangle 21.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 16%;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle22 {
+  background-image: url("/photos/Rectangle 22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 16%;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* section -4 */
+.section4 {
+  margin-top: 2rem;
+  width: 100%;
+  /* max-width: 1340px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.testimonialSlider {
+  width: 80%;
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.imageContainer img {
+  width: 60%;
+  height: 50%;
+  object-fit: cover;
+}
