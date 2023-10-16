@@ -1,9 +1,15 @@
+"use client";
+
 import style from "./Navbar.module.css";
+import { useContext } from "react";
+import { contextApi } from "@/ContextApi";
 
 import Image from "next/image";
+import { FaBars } from "react-icons/fa";
 import { Navlinks } from "@/Data";
 
 const Navbar = () => {
+  const { openSidebar } = useContext(contextApi);
   return (
     <nav className={style.container}>
       <div className={style.navCenter}>
@@ -18,9 +24,9 @@ const Navbar = () => {
               unoptimized
             />
           </div>
-          {/* <button>
+          <button className={style.toggleBtn} onClick={() => openSidebar()}>
             <FaBars />
-          </button> */}
+          </button>
         </div>
         <div className={style.navLinks}>
           {Navlinks.map((link, index) => {

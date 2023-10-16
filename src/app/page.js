@@ -38,12 +38,12 @@ export default function Home() {
       <section className={styles.section3}>
         <div className={styles.image}>
           <Image
+            className={styles.phone}
             src="./photos/phone 1.png"
-            width={300}
-            height={500}
             alt="photo"
             priority={true}
             unoptimized
+            fill
           />
         </div>
         <div className={styles.text}>

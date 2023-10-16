@@ -68,3 +68,11 @@
     background-color: rgb(40, 37, 37);
     color: #fff;
 }
+
+@media(max-width:768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media(max-width:480px) {}

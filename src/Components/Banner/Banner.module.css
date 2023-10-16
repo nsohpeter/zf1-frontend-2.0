@@ -95,3 +95,39 @@
 
     color: #fff;
 }
+
+@media (max-width:1200px) {
+    .controlClick {
+        width: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    .sectionCenter {
+
+        height: 30vh;
+    }
+
+    .buttonsContainer {
+        width: 60%;
+        padding: 15px;
+    }
+
+    .herobBtn {}
+}
+
+@media (max-width:480px) {
+    .controlClick {
+        width: 20%;
+    }
+
+    .buttonsContainer {
+        width: 80%;
+        padding: 10px;
+        white-space: nowrap;
+    }
+
+    .buttonsContainer input {
+        width: 60%;
+    }
+}
